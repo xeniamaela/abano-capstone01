@@ -1,0 +1,413 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+/*NAVBAR DESIGN*/
+.navbar {
+	background-color: #191919;
+}
+
+.navbar-nav a {
+	float: right;
+	text-align: right;
+	color: white;
+/*	padding-left: 10px;*/
+}
+
+@media (max-width: 767px) {
+
+	.navbar-brand:hover {
+		color:#7D12FF;
+	}
+
+	.navbar-nav a:hover{
+		color: #5c33f6;
+
+	}
+
+	.navbar-brand {
+		font-size: 20px;
+		font-weight: 500;
+		color: white;
+	}
+
+	.navbar-toggler {
+		color: white;
+		font-size: 10px;
+	}
+
+	#aboutMe {
+		color: white;
+		text-align: center;
+		font-size: 35px;
+		font-weight: 900;
+		margin: 20px 0px 20px 0px;
+	}
+
+	.container-fluid {
+		padding: 20px 50px;
+		background-color: #5865f2; 
+
+	}
+
+	.container-fluid img {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+	.container-fluid p {
+		margin-top: 20px;
+		text-align:justify;
+		color: white;
+	}
+
+	.parallax1 {
+	  /* The image used */
+	  background-image: url("images/code.jpg");
+
+	  /* Set a specific height */
+	  min-height: 200px;
+	  width: 100%; 
+
+	  /* Create the parallax scrolling effect */
+	  background-attachment: fixed;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	}
+
+	.parallax2 {
+	  /* The image used */
+	  background-image: url("images/contact.jpg");
+
+	  /* Set a specific height */
+	  min-height: 200px;
+	  width: 100%; 
+
+	  /* Create the parallax scrolling effect */
+	  background-attachment: fixed;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	}
+
+	#projects {
+		color: #191919;
+		text-align: center;
+		font-size: 35px;
+		font-weight: 900;
+		padding: 40px 0px 0px 0px;
+		margin: 0px;
+	}
+
+	.projects h5 {
+		text-align: center;
+	}
+
+	.projects p {
+		text-align: center;
+	}
+
+	.projects a:hover {
+		color: white;
+		background-color: #5c33f6;
+	}
+
+	.card {
+		margin: 30px;
+		width: 18rem;
+	}
+	
+	.card a {
+		background-color: #191919;
+		color: white;
+		display: block;
+	}
+
+	.contact {
+		display: inline-block;
+		width: 100%;
+		padding: 40px 40px;
+		margin: 0px;
+		box-sizing: border-box;
+	}
+
+	#contact {
+		color: #191919;
+		text-align: center;
+		font-size: 35px;
+		font-weight: 900;
+		margin: 0px 0px 30px 0px;
+	}
+
+	.contact button {
+		background-color: #191919;
+		color: white;
+		display: block;
+		position: center;
+	}
+
+	footer {
+	   padding: 20px 0px;
+	   width: 100%;
+	   background-color: #191919;
+	   color: white;
+	   text-align: center;
+	}
+
+	.icon {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.icon i {
+		margin: 10px 10px;
+		color: white;
+	}
+
+	.btn-block {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		margin: 20px 0px 20px 0px;
+	}
+}
+
+@media (min-width: 768px) {
+
+	.navbar-brand:hover {
+		color:#7D12FF;
+	}
+
+	.navbar-nav a:hover{
+		color:#7D12FF;
+	}
+
+	.navbar-brand {
+		font-size: 25px;
+		font-weight: 500;
+		color: white;
+		margin-left: 10px;
+	}
+
+	.navbar-toggler {
+		color: white;
+		font-size: 20px;
+	}
+
+	#aboutMe {
+		color: white;
+		font-size: 50px;
+		font-weight: 900;
+		text-align: center;
+		padding: 90px 0px 10px 0px;
+	}
+	.container-fluid {
+		display: block;
+		background-color: #5865f2;
+		height: 600px;
+	}
+
+	.container-fluid img {
+		width: 80%;
+		height: auto;
+		margin: 20px 0px 50px 70px;
+	}
+
+	.col-md-6 p {
+		color: white;
+		font-size: 20px;
+		text-align: justify;
+		position: absolute;
+		margin: 20px 70px 40px 0px;
+	}
+
+	.col-md-6 .aboutMeInfo {
+		font-size: 20px;
+		text-align: justify;
+		position: absolute;
+		margin: 20px 70px 40px 0px;
+	}
+
+	.parallax1 {
+	  /* The image used */
+	  background-image: url("images/code.jpg");
+
+	  /* Set a specific height */
+	  min-height: 300px;
+	  width: 100%; 
+
+	  /* Create the parallax scrolling effect */
+	  background-attachment: fixed;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	}
+
+	.parallax2 {
+	  /* The image used */
+	  background-image: url("images/contact.jpg");
+
+	  /* Set a specific height */
+	  min-height: 300px;
+	  width: 100%; 
+
+	  /* Create the parallax scrolling effect */
+	  background-attachment: fixed;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	}
+
+	#projects {
+		color: #191919;
+		font-size: 50px;
+		font-weight: 900;
+		text-align: center;
+		padding: 90px 0px 10px 0px;
+		margin: 0px;
+	}
+	
+	.projects h5 {
+		text-align: center;
+	}
+
+	.projects p {
+		text-align: center;
+	}
+	
+	.projects a:hover {
+		color: white;
+		background-color: #5865f2;
+	}
+
+	.card {
+		margin: 30px;
+		width: 18rem;
+	}
+
+	.card a {
+		background-color: #191919;
+		color: white;
+		display: block;
+	}
+
+	.contact {
+		display: inline-block;
+		width: 100%;
+		padding: 40px 40px;
+		margin: 0px;
+		box-sizing: border-box;
+/*		background-color: #f2f2f2;*/
+	}
+
+	.contact i {
+		margin: 20px 30;
+	}
+
+	.form-group label {
+		font-weight: 400;
+	}
+
+	.form {
+		margin: 50px;
+	}
+
+	#contact {
+		color: #191919;
+		text-align: center;
+		font-size: 50px;
+		font-weight: 900;
+		margin: 30px 0px 30px 0px;
+	}
+
+	.contact .btn {
+		background-color: #191919;
+		color: white;
+	}
+
+	footer {
+	   padding: 30px 10px;
+	   width: 100%;
+	   background-color: #191919;
+	   color: white;
+	   text-align: center;
+	}
+
+	.icon {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.icon i {
+		margin: 10px 10px;
+		color: white;
+	}
+}
+
+@media (min-width: 992px) {
+
+	.navbar-brand:hover {
+		color:#7D12FF;
+	}
+
+	.navbar-nav a:hover{
+		color:#5865f2;
+	}
+
+	.navbar-brand {
+		font-size: 30px;
+		font-weight: 500;
+		color: white;
+	}
+
+	#aboutMe {
+		color: white;
+		font-size: 50px;
+		font-weight: 900;
+		text-align: center;
+		padding: 90px 0px 30px 0px;
+	}
+
+	.container-fluid {
+		display: block;
+		height: 700px;
+	}
+
+	.container-fluid img {
+		display: block;
+		width: 60%;
+		height: auto;
+		margin: auto;
+
+	}
+
+	.container-fluid p {
+		display: block;
+		font-size: 20px;
+		text-align: justify;
+		position: absolute;
+		margin: 50px 90px 50px 0px;
+		color: white;
+		font-weight: 200;
+	}
+
+	.icon {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.icon i {
+		margin: 10px 10px;
+	}
+}
