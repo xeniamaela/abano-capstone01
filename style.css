@@ -14,7 +14,6 @@
 	float: right;
 	text-align: right;
 	color: white;
-/*	padding-left: 10px;*/
 }
 
 @media (max-width: 767px) {
@@ -63,36 +62,6 @@
 		margin-top: 20px;
 		text-align:justify;
 		color: white;
-	}
-
-	.parallax1 {
-	  /* The image used */
-	  background-image: url("images/code.jpg");
-
-	  /* Set a specific height */
-	  min-height: 200px;
-	  width: 100%; 
-
-	  /* Create the parallax scrolling effect */
-	  background-attachment: fixed;
-	  background-position: center;
-	  background-repeat: no-repeat;
-	  background-size: cover;
-	}
-
-	.parallax2 {
-	  /* The image used */
-	  background-image: url("images/contact.jpg");
-
-	  /* Set a specific height */
-	  min-height: 200px;
-	  width: 100%; 
-
-	  /* Create the parallax scrolling effect */
-	  background-attachment: fixed;
-	  background-position: center;
-	  background-repeat: no-repeat;
-	  background-size: cover;
 	}
 
 	#projects {
