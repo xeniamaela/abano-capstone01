@@ -17,7 +17,7 @@
 }
 
 @media (max-width: 767px) {
-	.body {
+	body {
 		padding-top:55px;
 	}
 	.navbar-brand:hover {
