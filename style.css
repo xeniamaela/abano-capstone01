@@ -17,7 +17,9 @@
 }
 
 @media (max-width: 767px) {
-
+	.body {
+		padding-top:55px;
+	}
 	.navbar-brand:hover {
 		color:#7D12FF;
 	}
